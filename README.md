@@ -10,11 +10,11 @@ This Python script performs website security and SEO (Search Engine Optimization
 - Parses HTML content to extract title, meta tags, headers, and text content
 - Analyzes SEO factors such as meta title length
 - Checks for security vulnerabilities like script and iframe tags
-- Retrieves domain information using WHOIS lookup
+- Retrieves domain information using python-whois
 - Checks for the presence of specific website pages (e.g., Terms and Conditions, Contact Us, FAQ)
 - Finds backlinks in the webpage
-- Identifies language errors using LanguageTool
-- Generates a comprehensive report summarizing the analysis results
+- Identifies language errors using the enchant library
+- Generates a comprehensive PDF report summarizing the analysis results
 
 ## Installation
 
@@ -40,15 +40,16 @@ This Python script performs website security and SEO (Search Engine Optimization
 
 2. Enter the URL of the website when prompted.
 
-3. The script will analyze the website and generate a report with the analysis results.
+3. The script will analyze the website and generate a PDF report with the analysis results.
 
 ## Dependencies
 
 - requests
 - beautifulsoup4
-- whois
-- language-tool-python
+- python-whois
 - nltk
+- enchant
+- reportlab
 
 ## License
 
