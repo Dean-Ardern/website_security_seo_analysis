@@ -21,7 +21,7 @@ This Python script performs website security and SEO (Search Engine Optimization
 1. Clone the repository:
 
     ```
-    git clone https://github.com/yourusername/website-security-seo-analysis.git
+    git clone https://github.com/Dean-Ardern/website-security-seo-analysis.git
     ```
 
 2. Install dependencies:
